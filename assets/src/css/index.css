@@ -53,3 +53,10 @@ h1 {
     width: 550px;
     height: 600px;
 }
+.card{
+    border: 2px solid red;
+    max-width: 600px;
+    height: 40px;
+    padding: 50px;
+    
+}
