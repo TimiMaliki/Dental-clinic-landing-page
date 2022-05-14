@@ -44,7 +44,7 @@
 }
 .grid3{
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(4, 4fr);
     padding: 15px;
 }
 
@@ -53,5 +53,9 @@
 }
 .ml-y1{
    margin-left: -380px;
+}
+.sm{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
 }
 
