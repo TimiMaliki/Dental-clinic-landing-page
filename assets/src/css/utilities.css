@@ -42,7 +42,16 @@
     grid-template-columns: repeat(2, 2fr);
 
 }
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 15px;
+}
+
 .m-y1{
    margin: 18px;
+}
+.ml-y1{
+   margin-left: -380px;
 }
 

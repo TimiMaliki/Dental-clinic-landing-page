@@ -51,12 +51,15 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 550px;
-    height: 600px;
+    height: 640px;
+    position: relative;
+    z-index: auto;
 }
 .card{
-    border: 2px solid red;
-    max-width: 600px;
-    height: 40px;
-    padding: 50px;
-    
+    background:#fff;
+    max-width: 660px;
+    height: 100px;
+    transform: translateY(-120px);
+    border: transparent;
+    border-radius: 4px ;
 }
