@@ -37,6 +37,21 @@
     color: #fff;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
+.btn1{
+    display: inline-block;
+    max-width: 100px;
+    height: 41px;
+    cursor: pointer;
+    background-color: blue;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+h5{
+    padding: 10px 0;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
