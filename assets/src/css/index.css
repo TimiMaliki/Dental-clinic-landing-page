@@ -15,6 +15,10 @@ h1 {
     font-size: 19px;
     color: #fff;
 }
+header{
+    position: fixed;
+    width: 100%;
+}
 
 .navbar {
     height: 70px;
@@ -49,11 +53,9 @@ h1 {
 .image img{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     width: 550px;
     height: 640px;
-    position: relative;
-    z-index: auto;
+
 }
 .card{
     background:#fff;
@@ -62,4 +64,7 @@ h1 {
     transform: translateY(-120px);
     border: transparent;
     border-radius: 4px ;
+}
+.watch{
+    
 }
