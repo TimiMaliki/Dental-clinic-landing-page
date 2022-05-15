@@ -33,6 +33,7 @@ header{
     margin: 0px 7px;
     font-size: 15px;
     font-weight: 400;
+    transition: all 2s ease;
 }
 .navbar a:hover{
     color: rgb(24, 24, 212);
