@@ -109,13 +109,20 @@ section{
     margin-left: -22px;
 }
 .special{
-    border: 2px solid red;
     max-width: 1100px;
-    height: 70vh;
+    height: 100vh;
 }
 .imgbox{
-    border: 2px solid  green;
-    max-width: 1100px;
-    height: 270px;
+    grid-gap:5rem;
+}
+.mge img{
+    border: 2px solid red;
+    background: #333;
+    padding: 60px;
+    width: 250px;
+    height: 300px;
+}
+.get img{
+    border:  2px solid blue;
 }
 
