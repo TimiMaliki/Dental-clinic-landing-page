@@ -62,15 +62,23 @@ h5{
     grid-template-columns: repeat(4, 4fr);
     padding: 15px;
 }
-
 .m-y1{
    margin: 18px;
 }
 .m-y2{
    margin: 70px;
 }
+.m-y3{
+    margin: -25px;
+}
 .ml-y1{
    margin-left: -380px;
+}
+.ml-y2{
+    margin-left: 20px;
+}
+.grid-gap{
+    grid-gap: 4rem;
 }
 .sm{
     display: grid;
