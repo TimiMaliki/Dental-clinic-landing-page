@@ -118,12 +118,9 @@ section{
 .mge img{
     border: 2px solid red;
     background: #333;
-    padding: 60px;
-    width: 260px;
-    height: 300px;
-    transform: translateY(-30px);
+    padding: 80px;
+    max-width: 140px;
+    height: 400px;
 }
-.get img{
-    border:  2px solid blue;
-}
+
 
