@@ -110,6 +110,12 @@ section{
 }
 .special{
     border: 2px solid red;
-    
+    max-width: 1100px;
+    height: 70vh;
+}
+.imgbox{
+    border: 2px solid  green;
+    max-width: 1100px;
+    height: 270px;
 }
 
