@@ -92,21 +92,24 @@ section{
      transition: all 0.5s ease-in;
 }
 .fa:hover{
-    padding: 50px;
-    margin-top: -50px;
+    padding: 30px 30px;
+    margin-top: -39px;
     border-radius: 9px;
     background: #000;
     color: #fff;
-   
+    transform: translateY(-30px);
+    align-items: center;
+    justify-content: center;
 }
-/*
- .fa{
-   transition: all 0.5 ease-in;
+.text-icon{
+    font-size:10px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: -22px;
 }
- .fa:hover{
-    width: 200px;
-    height: 100px;
-    background: blue;
-    transform: translateY(20px);
-}*/
+.special{
+    border: 2px solid red;
+    
+}
 
