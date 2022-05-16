@@ -119,8 +119,9 @@ section{
     border: 2px solid red;
     background: #333;
     padding: 60px;
-    width: 250px;
+    width: 260px;
     height: 300px;
+    transform: translateY(-30px);
 }
 .get img{
     border:  2px solid blue;
