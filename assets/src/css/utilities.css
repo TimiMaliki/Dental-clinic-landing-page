@@ -6,6 +6,10 @@
     justify-content: left;
     gap: 7em;
 }
+.justitfy-content{
+    justify-content: center;
+    text-align: center;
+}
 .text-decorate{
     text-decoration: none;
 }
@@ -37,6 +41,19 @@
     color: #fff;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
+.covid-btn{
+    display: inline-block;
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: blue;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-items: center;
+   
+}
 .btn1{
     display: inline-block;
     max-width: 100px;
@@ -59,7 +76,17 @@ h5{
 }
 .grid3{
     display: grid;
+    grid-template-columns: repeat(3, 3fr);
+
+}
+.grid4{
+    display: grid;
     grid-template-columns: repeat(4, 4fr);
+    padding: 15px;
+}
+.grid5{
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
     padding: 15px;
 }
 .m-y1{
@@ -71,11 +98,20 @@ h5{
 .m-y3{
     margin: -25px;
 }
+.m-y4{
+    margin: 45px;
+}
 .ml-y1{
    margin-left: -380px;
 }
 .ml-y2{
     margin-left: 10px;
+}
+.ml-y3{
+    margin-left:30px;
+}
+.ml-y4{
+    margin-left: 60px;
 }
 .grid-gap{
     grid-gap: 4rem;
