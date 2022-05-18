@@ -149,6 +149,18 @@ section{
 .services{
     border: 2px solid red;
     height:100vh;
+    color: #fff;
+}
+.service-card-one{
+    border:2px solid blue;
+    width: 400px;
+    height: 300px;
+    color: white;
+}
+.service__cardone{
+    border: 2px solid white;
+    width: 400px;
+    height: 300px;
 }
 
 
