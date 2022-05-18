@@ -59,15 +59,16 @@ header{
     background-repeat: no-repeat;
     width: 550px;
     height: 640px;
-
 }
 .card{
-    background:#fff;
+    background:rgba(225, 255, 255, 0.5);
+    position: relative;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
     max-width: 700px;
     height: 100px;
-    transform: translateY(-120px);
+    position: absolute;
     border: transparent;
-    border-radius: 4px;
+    border-radius: 14px;
 }
 section{
     background: #000;
@@ -88,12 +89,12 @@ section{
 .icon-layer{
     font-size: 35px;
     color: #fff;
+    transition: all 0.5s;
 }
 .fa{
     justify-self: center;
-     transition: all 0.5s ease-in;
 }
-.fa:hover{
+.icon-layer .fa:hover{
     padding: 30px 30px;
     margin-top: -39px;
     border-radius: 9px;
@@ -102,6 +103,7 @@ section{
     transform: translateY(-30px);
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease;
 }
 .text-icon{
     font-size:10px;
@@ -161,12 +163,10 @@ section{
 .service__cardone{
     width: 400px;
     height: 300px;
-    transform: translateY(-40px);
 }
 .footer-container{
-    border: 2px solid blue;
     height:100vh;
-    color: #fff;
+    color: #000;
 }
 .footer{
     width: 700px;
@@ -176,6 +176,12 @@ section{
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     background: blue;
 }
+.card-content{
+    justify-content: center;
+   gap: 5rem;
+}
+
+
 
 
 

@@ -89,6 +89,12 @@ h5{
     grid-template-columns: repeat(5, 5fr);
     padding: 15px;
 }
+.grid6{
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    padding: 15px;
+    grid-template-rows: repeat(2, 2fr);
+}
 .m-y1{
    margin: 18px;
 }
@@ -104,6 +110,9 @@ h5{
 .m-y5{
     margin: -45px;
 }
+.m-y6{
+    margin: 225px;
+}
 .ml-y1{
    margin-left: -380px;
 }
@@ -118,6 +127,15 @@ h5{
 }
 .ml-y5{
     margin-left: 190px;
+}
+.ml-y6{
+    margin-left: auto;
+}
+.margin-top{
+    margin-top: -40px;
+}
+.margin-top2{
+    margin-top: -120px;
 }
 .grid-gap{
     grid-gap: 4rem;
