@@ -127,7 +127,7 @@ section{
     width: 100px;
 }
  .covid{
-         height: 60vh;
+         height: 80vh;
          color: #fff;
          background: #333;
 }
@@ -145,6 +145,10 @@ section{
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+.services{
+    border: 2px solid red;
+    height:100vh;
 }
 
 
