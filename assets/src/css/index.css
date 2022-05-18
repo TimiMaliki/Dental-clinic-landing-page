@@ -11,6 +11,7 @@
 body{
     width: 100%;
     height: 100vh;
+    position: absolute;
 }
 h1 {
     margin: 10px 0px;
@@ -147,7 +148,6 @@ section{
     border-radius: 50px;
 }
 .services{
-    border: 2px solid red;
     height:100vh;
     color: #fff;
 }
@@ -156,11 +156,12 @@ section{
     width: 400px;
     height: 300px;
     color: white;
+    background: blue;
 }
 .service__cardone{
-    border: 2px solid white;
     width: 400px;
     height: 300px;
+    transform: translateY(-40px);
 }
 
 
