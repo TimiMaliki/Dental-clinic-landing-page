@@ -101,6 +101,9 @@ h5{
 .m-y4{
     margin: 45px;
 }
+.m-y5{
+    margin: -45px;
+}
 .ml-y1{
    margin-left: -380px;
 }
@@ -112,6 +115,9 @@ h5{
 }
 .ml-y4{
     margin-left: 60px;
+}
+.ml-y5{
+    margin-left: 190px;
 }
 .grid-gap{
     grid-gap: 4rem;
