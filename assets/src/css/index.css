@@ -43,12 +43,12 @@ header{
     border-bottom: 2px solid rgb(15, 15, 139);
 }
 .display{
-    background:  #000;
+    background:  #f3f3f3;
 }
 .content{
     margin: 70px 0px;
     padding: 50px;
-    color: #fff;
+    color: #000;
 }
 .text{
     font-size: 29px;
@@ -71,7 +71,7 @@ header{
     border-radius: 14px;
 }
 section{
-    background: #000;
+    background: #f6f6f6;
 }
 .section-container{
     margin-top: -70px;
@@ -132,7 +132,7 @@ section{
  .covid{
          height: 80vh;
          color: #fff;
-         background: #333;
+         background: #000;
 }
 .circle-pic{
     height: 40vh;
@@ -151,13 +151,12 @@ section{
 }
 .services{
     height:100vh;
-    color: #fff;
+    color: #000;
 }
 .service-card-one{
-    border:2px solid blue;
     width: 400px;
     height: 300px;
-    color: white;
+    color: #000;
     background: blue;
 }
 .service__cardone{

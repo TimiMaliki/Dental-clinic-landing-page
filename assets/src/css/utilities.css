@@ -6,6 +6,9 @@
     justify-content: left;
     gap: 7em;
 }
+.Maliki{
+    color: rgb(24, 24, 212);
+}
 .justitfy-content{
     justify-content: center;
     text-align: center;
