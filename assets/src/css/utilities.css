@@ -9,6 +9,9 @@
 .Maliki{
     color: rgb(24, 24, 212);
 }
+ .special__color{
+     color: #000;
+ }
 .justitfy-content{
     justify-content: center;
     text-align: center;
